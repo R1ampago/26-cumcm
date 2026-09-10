@@ -1,0 +1,20 @@
+{
+  "model": "causal rolling PV-forecast adjustment with fixed original plan and real-time storage recourse",
+  "volatile_price": false,
+  "updates_used": false,
+  "forecast_method": "linear",
+  "n_report_days": 334,
+  "report_start": "2025-02-01",
+  "report_end": "2025-12-31",
+  "planned_cost_yuan": 12347800.161078038,
+  "settlement_cost_yuan": 12347800.161078038,
+  "adjustment_fee_yuan": 0.0,
+  "emergency_cost_yuan": 1294551.003827745,
+  "total_cost_yuan": 13642351.164905779,
+  "emergency_energy_kwh": 385078.4830992669,
+  "days_with_emergency": 330,
+  "max_daily_emergency_kwh": 8270.278921947873,
+  "terminal_soc_convention": "daily terminal SOC equals the start SOC; January is simulated as warm-up but not reported",
+  "information_set": "date-specific load known; PV forecasts are used causally at 00:00/06:00/12:00/18:00; actual PV only enters real-time recourse",
+  "settlement_definition": "p*q_adjusted + 0.5*p*abs(q_adjusted-q_plan), interval by interval"
+}

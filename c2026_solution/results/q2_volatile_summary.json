@@ -1,0 +1,16 @@
+{
+  "model": "Q2 day-ahead typical-PV forecast with fixed planned grid purchases and real-time storage recourse",
+  "volatile_price": true,
+  "n_report_days": 334,
+  "report_start": "2025-02-01",
+  "report_end": "2025-12-31",
+  "planned_cost_yuan": 12774413.661785094,
+  "emergency_cost_yuan": 5186366.885034988,
+  "total_cost_yuan": 17960780.546820067,
+  "emergency_energy_kwh": 1215964.5214716953,
+  "days_with_emergency": 279,
+  "max_daily_emergency_kwh": 21069.734900864198,
+  "dt_hours": 0.16666666666666666,
+  "terminal_soc_convention": "daily terminal SOC equals the start SOC; January is simulated as warm-up but not reported",
+  "information_set": "date-specific load known; generic PV forecast from attachment 1; actual PV used only for recourse evaluation"
+}

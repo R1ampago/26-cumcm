@@ -1,0 +1,19 @@
+{
+  "result1": "ok",
+  "result2.xlsx": {
+    "status": "ok",
+    "emergency_segments": 831
+  },
+  "result4-2.xlsx": {
+    "status": "ok",
+    "emergency_segments": 1153
+  },
+  "result3.xlsx": {
+    "status": "ok",
+    "emergency_segments": 1467
+  },
+  "result4-3.xlsx": {
+    "status": "ok",
+    "emergency_segments": 1572
+  }
+}
